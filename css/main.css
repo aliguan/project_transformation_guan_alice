@@ -171,8 +171,8 @@ a {
 
 #content {
     float: right;
-    width: 660px;
-    padding: 0;
+    width: calc(100% / 3 * 2);
+    padding: 1em;
 }
 
 .post {
@@ -246,9 +246,9 @@ a {
 
 #sidebar {
     float: left;
-    width: 270px;
+    width: calc(100% / 3 - 4em);
     margin: 0;
-    padding: 30px 0 0 0;
+    padding: 1em;
 }
 
 #sidebar ul {
