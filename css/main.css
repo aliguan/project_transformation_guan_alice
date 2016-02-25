@@ -55,6 +55,11 @@ a {
     background: #ffffff url("../img/img05.jpg") repeat;
 }
 
+#header-wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
 .site-container {
     max-width: 1200px;
 }
@@ -145,10 +150,17 @@ a {
     color: #ffffff;
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 700px) {
+    #menu {
+        float: right;
+        width: (100% / 3);
+    }
     #menu li {
-        width: calc(100% / 5);
         display: inline-block;
+    }
+    #logo {
+        float: left;
+        width: calc(100% / 6);
     }
 }
 
