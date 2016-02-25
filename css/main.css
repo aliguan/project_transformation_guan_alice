@@ -163,7 +163,7 @@ a {
 #page {
     width: 100%;
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 1em;
 }
 
 /* Content */
@@ -366,9 +366,8 @@ a {
 /* Footer */
 
 #footer {
-    height: 140px;
     margin: 0 auto;
-    padding: 50px 0 15px 0;
+    padding: 50px 0;
     font-family: 'Abel', sans-serif;
 }
 
@@ -385,22 +384,4 @@ a {
 
 #footer a {
     color: #5e5e5e;
-}
-
-#marketing {
-    overflow: hidden;
-    margin-bottom: 30px;
-    padding: 20px 0 10px 0;
-    border-top: 1px solid #e7ebed;
-    border-bottom: 1px solid #e7ebed;
-}
-
-.list-style1 {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.list-style1 a {
-    color: #7f7f7f;
 }
