@@ -309,6 +309,17 @@ a {
     text-decoration: underline;
 }
 
+@media all and (min-width: 900px) {
+    #content {
+        float: right;
+        width: calc(100% / 3 * 2);
+    }
+    #sidebar {
+        float: left;
+        width: calc(100% / 3);
+    }
+}
+
 /* Footer */
 
 #footer {
