@@ -145,6 +145,13 @@ a {
     color: #ffffff;
 }
 
+@media all and (min-width: 600px) {
+    #menu li {
+        width: calc(100% / 5);
+        display: inline-block;
+    }
+}
+
 /* Banner */
 
 #banner {
